@@ -1,0 +1,7 @@
+trolley.html  购物车
+total.html    全部手机列表
+store.html    官方商城
+register.html  注册
+index.html    首页
+enter.html     登录
+detail.html    详情页

@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>手机详情页</title>
+    </head>
+    <script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="js/total.js"></script>
+    <script type="text/javascript" src="js/detail.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/detail.css">
+    <body>
+
+
+    	<div id = "top">
+    		<div class = "top-con con">
+    			<div class="top-con-d1">
+    				<img src="img/htc-logo.png" height="24" width="73" alt="">
+    			</div>
+    			<div class = "top-con-d2">
+    				<ul>
+    					<li class = "top-con-d2-li1"><a href="store.html">官方商城</a></li>
+    					<li class = "top-con-d2-li2"><a href="total.html">全部产品</a><span></span></li>
+    					<li class = "top-con-d2-li3"><a href="total.html">VIVE</a></li>
+    					<li class = "top-con-d2-li4"><a href="total.html">配件</a></li>
+    					<li class = "top-con-d2-li5"><a href="total.html">官方社区</a></li>
+    					<li class = "top-con-d2-li6"><a href="total.html">最新活动</a></li>
+    				</ul>
+    			</div>
+    			<div class="top-con-d3">
+    				<ul>
+    					<li><a href="enter.html#">登入/注册</a></li>
+    					<span></span>
+    					<li><a href="enter.html#">在线客服</a></li>
+    					<span></span>
+    					<li><a href="enter.html#">帮助中心</a></li>
+    					<span></span>
+    					<li><h2></h2><a href="trolley.html">购物车</a></li>
+    				</ul>
+    			</div>
+    			<div class="top-con-d4">
+    				<form action="">
+    					<input type="text" class="top-con-d4-ipt1" placeholder="搜索">
+    					<input type="button" class="top-con-d4-ipt2">
+    				</form>
+    			</div>
+    			<div class="top-con-d5">
+    				<div class="top-con-d5-da">
+    					<div class="top-con-d5-da-left">
+    						<ul class="top-con-d5-da-left-ul"></ul>
+    					</div>
+    					<div class="top-con-d5-da-right"></div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    	<div id = "nav">
+    		<div class = "nav-con con">
+    			<ul class = "nav-con-ul">
+    				<li class="nav-con-li1"><a href="#">商品目录+</a>
+    				</li>
+    				<li class="nav-con-li2"><a href="#">首页</a><span></span></li>
+    				<li class="nav-con-li3"><a href="#">逢双必杀</a><span></span></li>
+    				<li class="nav-con-li4"><a href="#">幸运大抽奖</a><span></span></li>
+    				<li class="nav-con-li5"><a href="#">全部手机</a><span></span></li>
+    				<li class="nav-con-li6"><a href="#">配件</a><span></span></li>
+    				<li class="nav-con-li7"><a href="#">HTC 如影(Re)</a><span></span></li>
+    			</ul>
+				<!-- 左侧列表 -->
+    			<div class="nav-con-div1">
+					<div class="nav-con-div1-d1 qq">
+						<div class="nav-con-div1-d1-left ww"></div>
+						<ul class="nav-con-div1-d1-ul1 ee"></ul>
+					</div>
+					<div class="nav-con-div1-d2 qq">
+						<div class="nav-con-div1-d2-left ww"></div>
+						<ul class="nav-con-div1-d2-ul2 ee"></ul>
+					</div>
+					<div class="nav-con-div1-d3 qq">
+						<div class="nav-con-div1-d3-left ww"></div>
+						<ul class="nav-con-div1-d3-ul3 ee"></ul>
+					</div>
+					<div class="nav-con-div1-d4 qq">
+						<div class="nav-con-div1-d4-left ww"></div>
+						<ul class="nav-con-div1-d4-ul4 ee"></ul>
+					</div>
+				</div>
+
+				<!-- 全部产品下拉 -->
+    			<div class="nav-con-div2">
+					<div class="nav-con-div2-d1"></div>
+					<div class="nav-con-div2-d2"></div>
+				</div>
+				<!-- 配件下拉 -->
+				<div class="nav-con-div3">
+					<div class="nav-con-div3-d1"></div>
+					<div class="nav-con-div3-d2"></div>
+				</div>  
+				
+
+    		</div>
+    	</div>
+
+		
+		<div id = "show">
+			<div class="show-con">
+				<a href="#" class="show-con-a1">主页</a>
+				<a href="#" class="show-con-a2"> /  HTC 10 联通公开版</a>
+			</div>
+		</div>
+
+		<div id = "htc1">
+			<div class="htc1-left">
+				<div class="htc1-left-top">				
+					<img src="img/detail/x.png" height="35" width="23" class="x">
+					<img src="img/detail/y.png" height="35" width="23" class="y">
+			
+					<div class="htc1-left-top-img">
+						<img src="img/detail/M10h-white-F(150).jpg" alt="">
+						<img src="img/detail/M10h-white-A(527).jpg" alt="" class="img1">
+						<img src="img/detail/M10h-white-B(527).jpg" alt="" class="img2">
+						<img src="img/detail/M10h-white-C(150).jpg" alt="" class="img3">
+						<img src="img/detail/M10h-white-D(527).jpg" alt="" class="img4">
+						<img src="img/detail/M10h-white-E(527).jpg" alt="" class="img5">
+						<img src="img/detail/M10h-white-F(150).jpg" alt="" class="img6">
+						<img src="img/detail/M10h-white-A(527).jpg" alt="">
+					</div>
+				</div>
+				<div class="htc1-left-bot">
+					<img src="img/detail/x.png" height="35" width="23" class="m">
+					<img src="img/detail/y.png" height="35" width="23" class="z">
+					<div class="htc1-left-bot-img">
+						<img src="img/detail/M10h-white-A(150).jpg" alt="" class="img1">
+						<img src="img/detail/M10h-white-B(150).jpg" alt="" class="img2">
+						<img src="img/detail/M10h-white-C(150).jpg" alt="" class="img3">
+						<img src="img/detail/M10h-white-D(150).jpg" alt="" class="img4">
+						<img src="img/detail/M10h-white-E(150).jpg" alt="" class="img5">
+						<img src="img/detail/M10h-white-F(150).jpg" alt="" class="img6">
+					</div>
+				</div>
+			</div>
+			<div class="htc1-right">
+				<div class="htc-right-1">
+					<h3>HTC 10 联通公开版</h3>
+					<a href="#">支持“双开”功能</a>
+					<p>【买就送】价值89元 HTC 10 透明保护壳+钢化膜套装*1</p>
+					<p>【加价购】原价69元HTC10lifestyle抗蓝光钢化玻璃保护贴立减40元</p>
+					<p>【加价购】原价99元<<a href="#">双享号</a>立减40元</p>
+					<p>【加价购】原价599元HTC Max500双驱动环绕音效耳机立减200元</p>
+					<p>【注】所有赠品赠完为止 </p>
+					<a href="#"> HTC官方ROM升级下载指引</a><br/>
+					<a href="#">手机使用指导</a>
+				</div>
+				<div class="htc-right-2">
+					<span>价   格 :</span>
+					<p>￥4999.00</p>
+					<a href="#">(降价通知)</a>
+				</div>
+				<div class="htc-right-3">
+					<div class="p1"><h4>容   量 : </h4>
+						<a class="a1">4GB/64GB<span></span></a>
+					</div>
+					<div class="p2"><h4>颜   色 : </h4>
+						<a class="a1">炫光银<span></span></a>
+						<a class="a2">夜光灰<span></span></a>
+						<a class="a3">銮光金<span></span></a>
+					</div>
+					<div class="p3"><h4>库   存 : </h4><a class="a1">有</a></div>
+					<div class="p4"><h4>评   价 : </h4>
+						<span></span>
+						<a class="a1">共10条评论</a>
+					</div>
+				</div>
+				<div class="htc-right-4">
+					<div class="p1"><a>立即购买</a></div>
+					<div class="p2">
+						<span></span>
+						<a>加入购物车</a>
+					</div>
+				</div>
+				<div class="htc-right-5">
+					<span>分    享 :</span>
+					<img src="img/detail/SHARE-qq.gif" height="24" width="87" alt="">
+					<img src="img/detail/SHARE-webo.gif" height="24" width="87" alt="">
+					<img src="img/detail/SHARE-wechat.gif" height="24" width="87" alt="">
+					<img src="img/detail/xin.png" height="12" width="14" alt="" class="img4">
+					<a href="#">收藏</a>
+				</div>
+			</div>
+		</div>
+
+		<div id = "present">
+			<div class="present-top">
+				<a href="#">赠  品</a>
+			</div>
+			<div class="present-bot">
+				<div>
+					<img src="img/detail/M10uzptz-white-A(150).jpg" alt="">
+					<p>HTC 10 透明保护壳+钢化膜套装 </p>
+					<span>￥89.00</span>
+					<a>颜色：白色</a>
+				</div>
+			</div>
+		</div>
+		<div id="raise">
+			<div class="raise-top">
+				<a href="#">加价购</a>
+			</div>
+			<div class="raise-bot">
+				<div class="raise-bot-d1 dd">
+					<img src="img/detail/MAX500-black-A(150).jpg" alt="">
+					<a href="#" class="a1">MAX500高保真双驱动环绕音效耳机</a>
+					<span class = "s1">￥599.00</span>
+					<span class = "s2">￥399.00</span>
+					<span class = "s3"></span>
+					<div>
+						<span>颜色:</span>
+						<a>黑色<span></span></a>
+						<p>白色<span></span></p>
+					</div>
+				</div>
+				<div class="raise-bot-d2 dd">
+					<img src="img/detail/htc10-ghm-transparent-A(150).jpg" alt="">
+					<a href="#" class="a1">HTC 10 lifestyle抗蓝光钢化玻璃保护贴 </a>
+					<span class = "s1">￥69.00</span>
+					<span class = "s2">￥29.00</span>
+					<span class = "s3"></span>
+					<div>
+						<span>颜色:</span>
+						<a>透明<span></span></a>
+					</div>
+				</div>
+				<div class="raise-bot-d3 dd">
+					<img src="img/detail/sxh-white-A(150).jpg" alt="">
+					<a href="#" class="a1">双享号 </a>
+					<span class = "s1">￥99.00 </span>
+					<span class = "s2">￥59.00</span>
+					<span class = "s3"></span>
+					<div>
+						<span>颜色:</span>
+						<a>白色<span></span></a>	
+					</div>
+				</div>
+				<div class="raise-bot-d4">
+					<span class="s1">原价：</span>
+					<span class="s2">折扣价：</span>
+					<p class="p1">￥5167.00</p>
+					<p class="p2">￥5087.00</p>
+					<a href="#">加入购物车</a>
+				</div>
+			</div>
+		</div>
+		<div id = "fd">
+			<div class="fd-d1">
+				<p class="fd-d1-p1">产品介绍</p>
+				<p class="fd-d1-p2">规格参数</p>
+				<p class="fd-d1-p3">用户评价</p>
+				<p class="fd-d1-p4">包装明细</p>
+			</div>
+		</div>
+	<div id="zz">
+		<div id = "img">
+		</div>
+
+		<div id = "para">
+			<p>规格参数</p>
+		</div>
+		<div id = "para2">
+			<img src="img/detail/cs1.png" height="727" width="1141">
+		</div>
+
+
+		<div id = "user">
+			<p>用户评价</p>
+		</div>
+		<div id = "user2">
+			<img src="img/detail/pj.png" height="3498" width="1156">
+		</div>
+
+
+		<div id = "wrap">
+			<p>包装明细</p>
+		</div>
+		<div id = "wrap2">
+			<img src="img/detail/bzmx.png" height="172" width="1143">
+		</div>		
+	</div>
+
+	
+	<div id="zz1">
+		<div id = "para">
+			<p>规格参数</p>
+		</div>
+		<div id = "para2">
+			<img src="img/detail/cs1.png" height="727" width="1141">
+		</div>
+	</div>
+	<div id="zz2">
+		<div id = "user">
+			<p>用户评价</p>
+		</div>
+		<div id = "user2">
+			<img src="img/detail/pj.png" height="3498" width="1156">
+		</div>
+	</div>
+	<div id="zz3">
+		<div id = "wrap">
+			<p>包装明细</p>
+		</div>
+		<div id = "wrap2">
+			<img src="img/detail/bzmx.png" height="172" width="1143">
+		</div>	
+	</div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	    <div id = "guide">
+	    	<div class="guide-con">
+	    		<div class="guide-con-d1"></div>
+	    		<div class="guide-con-d2"></div>
+	    		<div class="guide-con-d3"></div>
+	    		<div class="guide-con-d4"></div>
+	    		<div class="guide-con-d5"></div>
+	    	</div>
+	    	<div class="guide-bon">
+	    		<p class="p1">单笔订单满99元顺丰包邮</p>
+	    		<p class="p2">优选顺丰，迅捷配送</p>
+	    		<p class="p3">7天退货，15天换货</p>
+	    		<p class="p4">实体门店覆盖</p>
+	    		<p class="p5">全国联保维修点</p>
+	    	</div>
+	    </div>
+	    <div id = "follow">
+	    	<div class="follow-con">
+	    		<div class="follow-con-top"></div>
+	    		<div class="follow-con-bot">
+	    			<ul class="follow-con-bot-ul1"></ul>
+	    			<ul class="follow-con-bot-ul2"></ul>
+	    			<ul class="follow-con-bot-ul3"></ul>
+	    			<ul class="follow-con-bot-ul4"></ul>
+	    		</div>
+	    	</div>
+	    </div>
+	    <div id = "bottom">
+	    	<div class="bottom-con">
+	    		<div class="bottom-con-d1">
+	    			<p>400-821-8111 周一至周日 9:00-21:00(节假日除外） 客服专线，或联系</p>
+	    			<a href="#">在线客服</a>
+	    		</div>
+	    		<div class="bottom-con-d2">
+	    			<div class="bottom-con-d2-l">
+	    				<img src="img/sandian.jpg" height="7" width="37" alt="">
+	    				<a href="#">关注我们</a>
+	    			</div>
+	    			<div class="bottom-con-d2-c"></div>
+	    			<div class="bottom-con-d2-r">
+	    				<p>沪ICP备10214397号-8 中国</p>
+	    				<img src="img/globe_nbg.png">
+	    			</div>
+	    		</div>
+	    		<div class="bottom-con-d3">
+	    			<ul class="bottom-con-d3-ul1"></ul>
+	    			<ul class="bottom-con-d3-ul2"></ul>
+	    			<ul class="bottom-con-d3-ul3"></ul>
+	    			<ul class="bottom-con-d3-ul4"></ul>
+	    			<ul class="bottom-con-d3-ul5"></ul>
+	    			<ul class="bottom-con-d3-ul6"></ul>
+	    			<ul class="bottom-con-d3-ul7"></ul>
+	    			<ul class="bottom-con-d3-ul8"></ul>
+	    			<ul class="bottom-con-d3-ul9"></ul>
+	    			<ul class="bottom-con-d3-ul10">
+	    				<p>联系我们</p>
+	    				<a href="#">在线即时聊天</a>
+	    				<a href="#">预约当面服务</a>
+	    				<a href="#">致电</a>
+
+	    			</ul>
+	         		 <div class = "bottom-con-d3-div">
+			            <h1></h1>
+			            <p>copyright 2016宏达国际电子股份有限公司。著作权所有，并保留一切权利。</p>
+			            <a href="#" class = "bottom-con-d3-div-a1">使用条款与客户隐私政策</a>
+			            <a href="#">泸ICP备10214397号-3</a>
+			            <img src="img/qr_code_cn.jpg" alt="">
+	          		 </div>	    			
+	    		</div>
+
+
+
+	    	</div>
+	    </div>
+	    <div id = "side">
+	    	
+	    </div>
+
+
+    </body>
+</html>

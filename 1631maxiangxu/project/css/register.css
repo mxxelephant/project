@@ -1,0 +1,73 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}
+img{border:0;display:block;}
+ul,ol,li{list-style:none;}
+a{text-decoration:none;color:#000}
+h1,h2,h3,h4,h5,h6{font-size:12px;font-weight:100;}
+.clearfix:after{content:".";display:block;clear:both;height:0;overflow:hidden;visibility:hidden;}
+
+body{background: #f4f6f8}
+#box{width: 430px;height: 1400px;margin:60px auto;position: relative;}
+#box .img1{background: url(../img/zc1.jpg) no-repeat center center;width: 104px;height: 36px;margin:0 auto;}
+#box .p1{font-size: 18px;color: #798496;width: 430px;height: 80px;line-height: 80px;text-align: center;}
+#box .pp{width: 428px;height: 47px;border: solid 1px #b6c1d3;position: relative;}
+#box .langue .langue-ipt1{width: 372px;height: 47px;background: #fff;float: left;line-height: 47px;padding-left: 10px;}
+#box .langue .langue-ipt2{width: 46px;height: 47px;background: #b6c1d3;float: left;border: 0;cursor: pointer;}
+#box .langue .langue-ipt2 span{width: 14px;height: 8px;background: url(../img/zcsj.jpg) no-repeat;display: block;margin: 22px auto;}
+#box .langue .langue-ipt3{width: 429px;height: 200px;position: absolute;border: solid 1px #b6c1d3;left: 0;top: 47px;margin-left: -1px;overflow:auto;background: #fff;display: none;overflow-x:hidden;z-index: 1}
+#box .langue .langue-ipt3 li{width: 100%;height: 20px;margin-left: 5px;background: #fff;cursor: pointer;}
+#box .langue .langue-ipt3 li a{display: block;width: 100%;height: 20px;font-size: 14px;line-height: 20px;}
+#box .langue .langue-ipt3 li .a1{background: #f3f3f3;}
+#box .langue .langue-ipt4{border: 0;font-size: 14px;}
+#box .email{margin-top: 20px;position: relative;}
+#box .email .email-ipt1{width: 428px;height: 47px;background: #fff;border: 0;text-indent: 10px;font-size: 14px;line-height: 47px;}
+#box .email .email-ipt2{width: 428px;border: solid 1px #b6c1d3;position: absolute;top: 47px;display: none;}
+#box .email-p{width: 428px;height: 47px;line-height: 47px;color: red;color:red;float: left;display: none;}
+#box .email-a{cursor: pointer;}
+#box .elect1{width: 200px;height: 50px;float: right;}
+#box .elect1 p{font-size: 14px;line-height: 50px;float: left;}
+#box .elect1 a{font-size: 14px;line-height: 50px;float: left;}
+#box .psword{margin-top: 60px;position: relative;width: 47px;width: 428px;background: yellow}
+#box .psword .psword-ipt1{border: 0;width: 428px;height: 47px;f}
+#box .psword-p{width: 428px;height: 47px;color: red;margin-top: 20px;display: none;}
+#box .name{width: 428px;height: 47px;margin-top: 20px;}
+#box .na{width: 208px;height: 47px;border: solid 1px #b6c1d3;float: left;}
+#box .me{width: 208px;height: 47px;border: solid 1px #b6c1d3;float: right;}
+#box .fate{width: 428px;height: 47px;}
+#box .fate .fate-p1{font-size: 14px;float: left;line-height: 47px;}
+#box .fate span{width: 14px;height: 14px;background: url(../img/wenhao1.jpg) no-repeat;float: left;margin:16px 0 0 10px;}
+#box .fate .fate-p2{width: 200px;height: 65px;background: #f3f3f3;border-radius: 3%;position: absolute;top: 350px;left: 50px;display: none;}
+#box .aa{width: 131px;height: 47px;border: solid 1px #b6c1d3;margin-top: 20px;position: relative;float: left;}
+#box .aa .aa-ipt1{width: 87px;height: 47px;background: #fff;float: left;line-height: 47px;text-align: center;}
+#box .aa .aa-ipt2{width: 44px;height: 47px;background: #b6c1d3;float: left;line-height: 47px;cursor: pointer;}
+#box .aa .aa-ipt2 span{width: 14px;height: 8px;display: block;background: url(../img/zcsj.jpg);margin:20px auto;cursor: pointer;}
+#box .aa .aa-ipt3{width: 132px;height: 200px;position: absolute;border: solid 1px #b6c1d3;left: 0;top: 47px;overflow:auto;background: #fff;overflow-x:hidden;z-index: 1;display:none;}
+#box .aa .aa-ipt4{width: 100%;height: 100%;border: 0;text-indent: 10px;font-size: 14px;}
+#box .month{margin-left: -28px;}
+#box .sun{margin-left: 15px;}
+#box .age{margin-left: 14px;}
+#box .backup{margin-top: 90px;}
+#box .backup .backup-ipt1{width: 100%;height: 100%;text-indent: 10px;font-size: 14px;}
+#box .backup-p{width: 428px;height: 47px;line-height: 47px;text-indent: 10px;color: red;display: none;}
+#box .code{width: 208px;height: 47px;border: solid 1px #b6c1d3;margin-top: 20px;float: left;}
+#box .code-ipt1{font-size: 20px;text-align: center;line-height: 47px;background: url(../img/yym.jpg);border: 0}
+#box .reveal{width: 208px;height: 47px;border: solid 1px #b6c1d3;margin-top: 20px;margin-left: 10px;float: left;}
+#box .reveal .reveal-ipt1{width: 100%;height: 100%;background: #fff;border: 0;text-indent: 10px;}
+#box .reveal-p{width: 428px;color: red;margin-top: 70px;font-size: 16px;display: none;}
+#box .elect{width: 428px;height: 74px;margin-top:80px;}
+#box .elect .elect-ipt1{width: 14px;height: 14px;border: solid 1px #b6c1d3;margin-top: 30px;float: left;}
+#box .elect p{width: 400px;height: 74px;font-size: 12px;position: absolute;line-height: 12px;left: 20px;margin-top: 30px;}
+#box .acc{width: 428px;height: 47px;border-radius: 60px;background: #8694ac;margin-top:20px;line-height: 47px;text-align: center;cursor: pointer;}
+#box .bot2{width: 428px;height: 47px;font-size: 12px;text-align: center;line-height: 16px;margin-top: 20px;}
+#box .or{width: 428px;height: 47px;position: relative;margin-top: 40px;}
+#box .or p{width: 180px;height: 1px;background: #ced2d9;float: left;line-height: 47px;}
+#box .or .or-p2{float: right;}
+#box .or span{position: absolute;left: 205px;top: -10px;}
+#box .qq{width: 210px;height: 47px;border-radius: 60px;float: left;background: #51a9f3;line-height: 47px;text-align: center;position: relative;}
+#box .qq span{background: url(../img/qq.jpg) no-repeat; display: block;width: 23px;height: 26px;margin:10px 0 0 20px;position: absolute;top: 0}
+#box .wb{width: 210px;height: 47px;border-radius: 60px;float: right;background:#ffb33b;line-height: 47px;text-align: center;position: relative;}
+#box .wb span{background: url(../img/wb.jpg) no-repeat; display: block;width:32px;height: 27px;margin:10px 0 0 20px;position: absolute;top: 0}
+#box .zh{text-align: center;}
+#box .zh span{color: #798496}
+#box .zh a{color: #798496}
+
+
